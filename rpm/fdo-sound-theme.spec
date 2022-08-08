@@ -4,7 +4,8 @@ Release:       1
 License:       Public Domain
 Group:         Unspecified
 Summary:       Freedesktop.org sound theme
-Source0:       stereo.index
+Source:        %{name}-%{version}.tar.gz
+Source1:       stereo.index
 BuildArch:     noarch
 Requires:      sound-theme-freedesktop = %{version}
 
@@ -18,9 +19,10 @@ Makes sounds from the Freedesktop.org sound theme available as ring- and other t
 These audio files are actually already installed, this just adds a config file ot make them visible.
 
 %prep
+%setup -q -n %{name}-%{version}
 
 %install
-install -D -m 644 %{SOURCE0} %{buildroot}%{themedir}/stereo.index
+install -D -m 644 %{SOURCE1} %{buildroot}%{themedir}/stereo.index
 
 %build
 
