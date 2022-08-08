@@ -14,9 +14,11 @@ Requires:      sound-theme-freedesktop
 #%%define stereodir %%{themedir}/stereo
 
 %description
-Makes sounds from the Freedesktop.org sound theme available as ring- and other tones.
+Makes sounds from the Freedesktop.org sound theme available as ring- and other
+tones.
 
-These audio files are actually already installed, this just adds a config file which makes them visible.
+These audio files are actually already installed, this just adds a config file
+which makes them visible.
 
 %prep
 
