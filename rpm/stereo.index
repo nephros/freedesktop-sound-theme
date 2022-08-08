@@ -1,0 +1,23 @@
+{
+    "translationCatalog": "Freedesktop-sound-theme",
+        "files": [
+        { "displayName": "FDO Alarm Clock Elapsed", "fileName": "alarm-clock-elapsed.oga" },
+        { "displayName": "FDO Audio Volume Change", "fileName": "audio-volume-change.oga" },
+        { "displayName": "FDO Bell",                "fileName": "bell.oga" },
+        { "displayName": "FDO Camera Shutter",      "fileName": "camera-shutter.oga" },
+        { "displayName": "FDO Complete",            "fileName": "complete.oga" },
+        { "displayName": "FDO Device Added",        "fileName": "device-added.oga" },
+        { "displayName": "FDO Device Removed",      "fileName": "device-removed.oga" },
+        { "displayName": "FDO Dialog Info",         "fileName": "dialog-information.oga" },
+        { "displayName": "FDO Dialog Warning",      "fileName": "dialog-warning.oga" },
+        { "displayName": "FDO New Instant Message", "fileName": "message-new-instant.oga" },
+        { "displayName": "FDO Message",             "fileName": "message.oga" },
+        { "displayName": "FDO Incoming Call",       "fileName": "phone-incoming-call.oga" },
+        { "displayName": "FDO Busy",                "fileName": "phone-outgoing-busy.oga" },
+        { "displayName": "FDO Calling",             "fileName": "phone-outgoing-calling.oga" },
+        { "displayName": "FDO Login",               "fileName": "service-login.oga" },
+        { "displayName": "FDO Logout",              "fileName": "service-logout.oga" },
+        { "displayName": "FDO Suspend Error",       "fileName": "suspend-error.oga" },
+        { "displayName": "FDO Empty Trash",         "fileName": "trash-empty.oga" }
+        ]
+}
