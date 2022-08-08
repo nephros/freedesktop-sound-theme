@@ -19,7 +19,6 @@ Makes sounds from the Freedesktop.org sound theme available as ring- and other t
 These audio files are actually already installed, this just adds a config file ot make them visible.
 
 %prep
-%setup -q -n %{name}-%{version}
 
 %install
 install -D -m 644 %{SOURCE1} %{buildroot}%{themedir}/stereo.index
