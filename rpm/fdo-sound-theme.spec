@@ -7,11 +7,11 @@ Summary:       Freedesktop.org sound theme
 Source:        %{name}-%{version}.tar.gz
 Source1:       stereo.index
 BuildArch:     noarch
-Requires:      sound-theme-freedesktop = %{version}
+Requires:      sound-theme-freedesktop
 
 %define themename freedesktop
 %define themedir %{_datadir}/sounds/%{themename}
-%define stereodir %{themedir}/stereo
+#%%define stereodir %%{themedir}/stereo
 
 %description
 Makes sounds from the Freedesktop.org sound theme available as ring- and other tones.
